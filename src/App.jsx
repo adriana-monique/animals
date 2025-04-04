@@ -2,7 +2,7 @@ import { useState } from "react"
 
 import './App.css'
 
-import AnimalsShow from "./AnimalsShow"
+import AnimalsShow from "./AnimalsShow.jsx"
 
 function getRandomAnimal(){
   const animals = ['cat', 'bird', 'dog', 'gator', 'horse']

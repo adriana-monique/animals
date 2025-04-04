@@ -30,7 +30,7 @@ function AnimalsShow({type}){
     return(
         <div
             onClick={handleClick} 
-            className="animals-show"
+            className="animal-show"
         >
             <img 
                 src={svgMap[type]}
